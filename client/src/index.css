@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  background-color: #f2f6f3;
+  background-image: radial-gradient(#dce6df 0.7px, transparent 0.7px);
+  background-size: 18px 18px;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #a9bbb0 transparent;
+}
+
+::selection {
+  color: #17231f;
+  background: #bfe1d0;
+}
